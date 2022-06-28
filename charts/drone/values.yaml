@@ -108,7 +108,7 @@ persistentVolume:
   ## Ref: http://kubernetes.io/docs/user-guide/persistent-volumes/
   ##
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
 
   ## Drone server data Persistent Volume annotations
   ##
